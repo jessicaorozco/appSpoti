@@ -1,0 +1,99 @@
+[
+    {
+        "music_id": 1,
+        "category": "Rock",
+        "playlist": [
+            {
+                "artista": "Ramnstein",
+                "album": "Herzeleid "
+            },
+            {
+                "artista": "Metallica",
+                "album": "Death Magnetic"
+            },
+            {
+                "artista": "Korn",
+                "album": "Follow the Leader y The Family Values Tour"
+            },
+            {
+                "artista": "Lamb of God",
+                "album": "Sacrament"
+            },
+            {
+                "artista": "Lamb of God",
+                "album": "Sacrament"
+            }
+        ],
+        "url": "https://wikimedia.org/ante/vel/ipsum/praesent.jpg?feugiat=id&et=sapien&eros=in&vestibulum=sapien&ac=iaculis&est=congue&lacinia=vivamus&nisi=metus&venenatis=arcu"
+    },
+    {
+        "music_id": 2,
+        "category": "Deep House",
+        "playlist": [
+            {
+                "artista": "Kaskade",
+                "album": "Solid Ground "
+            },
+            {
+                "artista": "Miguel Migs",
+                "album": "Breakin' It Down"
+            },
+            {
+                "artista": "Nicolas Jaar",
+                "album": "Time for Us"
+            },
+            {
+                "artista": "Blue Six",
+                "album": "Aquarian Angel"
+            },
+            {
+                "artista": "Moodymann",
+                "album": "Lyk U Use 2 (feat. Andres)"
+            }
+        ],
+        "url": "http://homestead.com/vel/enim/sit/amet.aspx?aliquam=mi&augue=integer&quam=ac&sollicitudin=neque&vitae=duis&consectetuer=bibendum&eget=morbi&rutrum=non&at=quam&lorem=nec&integer=dui&tincidunt=luctus&ante=rutrum&vel=nulla&ipsum=tellus&praesent=in&blandit=sagittis&lacinia=dui&erat=vel&vestibulum=nisl&sed=duis&magna=ac&at=nibh&nunc=fusce&commodo=lacus&placerat=purus&praesent=aliquet&blandit=at&nam=feugiat&nulla=non&integer=pretium&pede=quis&justo=lectus&lacinia=suspendisse&eget=potenti&tincidunt=in&eget=eleifend&tempus=quam&vel=a&pede=odio&morbi=in&porttitor=hac&lorem=habitasse&id=platea&ligula=dictumst&suspendisse=maecenas&ornare=ut"
+    },
+    {
+        "music_id": 3,
+        "category": "Dance",
+        "playlist": [
+            {},
+            {},
+            {},
+            {}
+        ],
+        "url": "https://weather.com/non/quam.xml?convallis=at&duis=dolor&consequat=quis&dui=odio&nec=consequat&nisi=varius&volutpat=integer&eleifend=ac&donec=leo&ut=pellentesque&dolor=ultrices&morbi=mattis&vel=odio&lectus=donec&in=vitae&quam=nisi&fringilla=nam&rhoncus=ultrices&mauris=libero&enim=non&leo=mattis&rhoncus=pulvinar&sed=nulla&vestibulum=pede&sit=ullamcorper&amet=augue&cursus=a&id=suscipit&turpis=nulla&integer=elit&aliquet=ac&massa=nulla&id=sed&lobortis=vel&convallis=enim&tortor=sit&risus=amet&dapibus=nunc&augue=viverra"
+    },
+    {
+        "music_id": 4,
+        "category": "HipHop",
+        "playlist": [
+            {},
+            {},
+            {}
+        ],
+        "url": "https://yale.edu/blandit/mi.jsp?et=turpis&tempus=sed&semper=ante&est=vivamus&quam=tortor&pharetra=duis&magna=mattis&ac=egestas&consequat=metus&metus=aenean&sapien=fermentum&ut=donec&nunc=ut&vestibulum=mauris&ante=eget&ipsum=massa&primis=tempor&in=convallis&faucibus=nulla&orci=neque&luctus=libero&et=convallis&ultrices=eget&posuere=eleifend&cubilia=luctus&curae=ultricies&mauris=eu&viverra=nibh&diam=quisque&vitae=id&quam=justo&suspendisse=sit&potenti=amet&nullam=sapien"
+    },
+    {
+        "music_id": 5,
+        "category": "Jazz",
+        "playlist": [
+            {},
+            {},
+            {},
+            {}
+        ],
+        "url": "https://telegraph.co.uk/pede/posuere/nonummy/integer.html?orci=blandit&mauris=nam&lacinia=nulla&sapien=integer&quis=pede&libero=justo&nullam=lacinia&sit=eget&amet=tincidunt&turpis=eget&elementum=tempus&ligula=vel&vehicula=pede&consequat=morbi&morbi=porttitor&a=lorem&ipsum=id&integer=ligula&a=suspendisse&nibh=ornare&in=consequat&quis=lectus&justo=in&maecenas=est&rhoncus=risus&aliquam=auctor&lacus=sed&morbi=tristique&quis=in&tortor=tempus&id=sit&nulla=amet&ultrices=sem&aliquet=fusce&maecenas=consequat&leo=nulla&odio=nisl&condimentum=nunc&id=nisl&luctus=duis&nec=bibendum&molestie=felis&sed=sed&justo=interdum&pellentesque=venenatis&viverra=turpis&pede=enim&ac=blandit&diam=mi&cras=in&pellentesque=porttitor&volutpat=pede&dui=justo&maecenas=eu&tristique=massa&est=donec&et=dapibus"
+    },
+    {
+        "music_id": 6,
+        "category": "Reggae",
+        "playlist": [
+            {},
+            {},
+            {},
+            {}
+        ],
+        "url": "https://g.co/accumsan/felis/ut/at/dolor.png?in=justo&magna=in&bibendum=hac&imperdiet=habitasse"
+    }
+];

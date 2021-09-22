@@ -1,0 +1,336 @@
+<<<<<<< HEAD
+
+swagger: 2.0
+=======
+---
+swagger: '2.0'
+>>>>>>> Deploy to heroku
+info:
+  title: API app Music
+  description: A simple App of Music
+  version: 1.0.0
+  contact:
+    name: Kevin Vicent
+    url: http://moebio.us
+    email: kevin.vicent@gmail.com
+host: localhost:5300
+basePath: "/"
+paths:
+  "/":
+    get:
+      summary: Endpoint for list category music
+      description: list Music
+      produces:
+      - application/json
+<<<<<<< HEAD
+      schema:
+        $ref: #/definitions/music
+      responses:
+        200:
+        description: OK
+=======
+      responses:
+        '200':
+         description: successful
+>>>>>>> Deploy to heroku
+    post:
+      summary: Create category of Music
+      description: Create Playlist Music
+      produces:
+      - application/json
+<<<<<<< HEAD
+      schema:
+        $ref: #/definitions/music
+      parameters:
+      - name: category
+        in: query
+        description: The category
+        required: true
+        type: string
+      - name: playlist
+        in: query
+        description: The playlist music of user
+        required: true
+        type: string
+      - name: url
+        in: query
+        description: The url playlist music of user
+        required: true
+        type: url
+      responses:
+        200:
+        description: OK
+=======
+      parameters:
+      - name: body
+        in: body
+        description: The category
+        required: true
+        schema:
+          "$ref": "#/definitions/music"
+      responses:
+        '200':
+         description: successful
+>>>>>>> Deploy to heroku
+  "/user":
+    post:
+      tags:
+      - user
+      summary: Create user
+      description: This can only be done by the logged in user.
+      operationId: createUser
+      produces:
+      - application/xml
+      - application/json
+      parameters:
+<<<<<<< HEAD
+      - in: query
+        name: email
+        description: Created user object
+        required: true
+        example: jes@test.com
+      - in: query
+        name: password
+        description: Password
+        required: true
+        example: Ma2291624*
+        schema:
+          $ref: #/definitions/user
+=======
+      - in: body
+        name: body
+        description: Created user object
+        required: true
+        schema:
+          "$ref": "#/definitions/user"
+>>>>>>> Deploy to heroku
+      responses:
+        default:
+          description: successful operation
+    get:
+      tags:
+      - user
+      summary: Returns a list of users.
+      description: List of User whit token
+      operationId: getList
+      produces:
+      - application/xml
+      - application/json
+<<<<<<< HEAD
+      schema:
+        $ref: #/definitions/user
+      responses:
+        200:
+=======
+      responses:
+        '200':
+>>>>>>> Deploy to heroku
+          description: successful operation
+          headers:
+            X-Rate-Limit:
+              type: integer
+              format: int32
+              description: calls per hour allowed by the user
+            X-Expires-After:
+              type: string
+              format: date-time
+              description: date in UTC when token expires
+          schema:
+            type: string
+<<<<<<< HEAD
+        500:
+=======
+        '500':
+>>>>>>> Deploy to heroku
+          description: Invalid information
+  "/user/{user_id}":
+    get:
+      tags:
+      - user
+      summary: Find user
+      description: This can only be done by the logged in user.
+      operationId: getUser
+      produces:
+      - application/xml
+      - application/json
+      parameters:
+      - name: user_id
+<<<<<<< HEAD
+        in: query
+        description: id that need to be find
+        required: true
+        type: integer
+        schema:
+          $ref: #/definitions/user
+      responses:
+        400:
+          description: Invalid email supplied
+        404:
+=======
+        in: path
+        description: id that need to be find
+        required: true
+        type: integer
+      responses:
+        '400':
+          description: Invalid email supplied
+        '404':
+>>>>>>> Deploy to heroku
+          description: User not found
+    put:
+      tags:
+      - user
+      summary: Updated user
+<<<<<<< HEAD
+      description: This can only be done by the logged in user.
+=======
+      description: you must be add user_id and body
+>>>>>>> Deploy to heroku
+      operationId: updateUser
+      produces:
+      - application/xml
+      - application/json
+      parameters:
+<<<<<<< HEAD
+      - name: user_id
+        in: path
+        description: name that need to be updated
+        required: true
+        type: integer
+      - in: query
+        name: email
+        description: Updated user object
+        required: true
+        schema:
+          $ref: #/definitions/user
+=======
+      - in: path
+        name: user_id
+        required: true
+        type: integer
+      - in: body
+        name: body
+        description: Updated user object
+        required: true
+        schema:
+          "$ref": "#/definitions/user"
+>>>>>>> Deploy to heroku
+      responses:
+        '200':
+          description: successful
+        '404':
+          description: User not found
+    delete:
+      tags:
+      - user
+      summary: Delete user
+      description: This can only be done by the logged in user.
+      operationId: deleteUser
+      produces:
+      - application/xml
+      - application/json
+      parameters:
+      - name: user_id
+        in: path
+<<<<<<< HEAD
+        description: name that need to be updated
+        required: true
+        type: integer
+        schema:
+          $ref: #/definitions/user
+      responses:
+        400:
+          description: Invalid email supplied
+        404:
+=======
+        description: name that need to be delete
+        required: true
+        type: integer
+      responses:
+        '400':
+          description: Invalid email supplied
+        '404':
+>>>>>>> Deploy to heroku
+          description: User not found
+  "/login":
+    post:
+      tags:
+      - user
+      summary: Logs user into the system
+      description: ''
+      operationId: loginUser
+      produces:
+      - application/xml
+      - application/json
+      parameters:
+<<<<<<< HEAD
+      - name: email
+        in: query
+        description: The user email for login
+        required: true
+        type: string
+      - name: password
+        in: query
+        description: The password for login in clear text
+        required: true
+        type: string
+        schema:
+          $ref: #/definitions/user
+      responses:
+        200:
+=======
+      - name: body
+        in: body
+        description: The user email for login
+        required: true
+        schema:
+          "$ref": "#/definitions/user"
+      responses:
+        '200':
+>>>>>>> Deploy to heroku
+          description: successful operation
+          headers:
+            X-Rate-Limit:
+              type: integer
+              format: int32
+              description: calls per hour allowed by the user
+            X-Expires-After:
+              type: string
+              format: date-time
+              description: date in UTC when token expires
+          schema:
+            type: string
+<<<<<<< HEAD
+        400:
+=======
+        '400':
+>>>>>>> Deploy to heroku
+          description: Invalid email/password supplied
+definitions:
+  user:
+    properties:
+      user_id:
+        type: integer
+      email:
+        type: string
+      password:
+        type: string
+    required:
+    - id
+    - email
+    - password
+  music:
+    properties:
+      music_id:
+        type: integer
+      category:
+        type: string
+      playlist:
+        type: array
+      url:
+        type: string
+<<<<<<< HEAD
+      user_id:
+        type: integer
+=======
+>>>>>>> Deploy to heroku
